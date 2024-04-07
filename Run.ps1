@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls12
 
 # URL of the file to download
-$DownloadURL = "https://raw.githubusercontent.com/BlueStreak79/Office/main/Setup.exe"
+$DownloadURL = "https://raw.githubusercontent.com/BlueStreak79/Ninite/main/Setup.exe"
 
 # Path to save the downloaded file
 $FilePath = "$env:TEMP\Setup.exe"
