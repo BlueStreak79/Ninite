@@ -6,7 +6,7 @@ $ErrorActionPreference = "Stop"
 $DownloadURL = "https://raw.githubusercontent.com/BlueStreak79/Ninite/main/Setup.exe"
 
 # Path to save the downloaded file
-$FilePath = "$env:TEMP\Setup.exe"
+$FilePath = "$env:TEMP\Ninite.exe"
 
 try {
     # Check if the file already exists
